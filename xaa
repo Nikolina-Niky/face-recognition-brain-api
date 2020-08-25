@@ -1,0 +1,6 @@
+focus down
+screen vmstat 1
+split
+focus down
+screen
+focus bottom
