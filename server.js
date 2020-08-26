@@ -8,6 +8,7 @@ const signIn = require('./Controllers/SignIn')
 const profile = require('./Controllers/Profile')
 const image = require('./Controllers/Image')
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0; 
 const db = knex({
   client: 'pg',
   connection: {
